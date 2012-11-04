@@ -18,4 +18,8 @@ RSpec.configure do |c|
     
     result
   end
+  
+  def project_root
+    File.join(File.dirname(__FILE__), '..')
+  end
 end
